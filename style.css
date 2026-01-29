@@ -1,0 +1,61 @@
+body {
+    background: linear-gradient(to right, #74ebd5, #9face6);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 40px;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+h1 {
+    color: #ff6b6b;
+}
+
+h2 {
+    color: #333;
+}
+
+.message {
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.dua {
+    background: #f0f8ff;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 12px 20px;
+    border: none;
+    background: #4caf50;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #43a047;
+}
+
+#surprise {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #333;
+}
+
+footer {
+    margin-top: 25px;
+    font-size: 14px;
+    color: #555;
+}
