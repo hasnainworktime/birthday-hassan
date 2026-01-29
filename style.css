@@ -95,3 +95,39 @@ footer {
         height: 80px;
     }
 }
+.birthday-images img {
+    width: 300px;
+    margin: 15px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.birthday-images img:hover {
+    transform: scale(1.05);
+}
+
+#playButton {
+    padding: 12px 25px;
+    font-size: 18px;
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#playButton:hover {
+    background-color: #ff1493;
+}
+
+/* Optional: Bounce animation for images when audio plays */
+@keyframes bounce {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+}
+
+.animate {
+    animation: bounce 0.5s;
+}
